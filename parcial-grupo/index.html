@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab & Go</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Grab & Go</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+            <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <div>
+                <ul>
+                    <li class="submenu">
+                       <img id="img-carrito" src="img/car.svg" alt="car">
+                       <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                       </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-img">
+            <img src="img/logo-removebg-preview.png">
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>BIENVENIDO A GRAB & GO</span>
+                <h1>COMPRA LO MEJOR DE LO MEJOR CON LOS MEJORES</h1>
+
+                <div class="container mt-2 bg-tertiary">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img src="img/teems.jpg" alt="">
+                          </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="navbar-nav ms-auto">
+            
+                                <a class="nav-link pt-4 pb-4" href="bebidas.html">Bebidas y lacteos</a>
+                                <a class="nav-link pt-4 pb-4" aria-current="page" href="congelados.html">Congelados</a>
+                                <a class="nav-link pt-4 pb-4" href="frut-ver.html">Frutas y verduras</a>
+                                <a class="nav-link pt-4 pb-4" href="limpieza.html">Productos de limpieza</a>
+                                <a class="nav-link pt-4 pb-4 "href="snacks.html">Snacks y bocaditos</a>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+                  </div>
+        </div>
+    </header>
+
+
+        <!-- Contenedor de productos -->
+        <main class="product-container" id="lista-1">
+            <h2>Productos</h2>
+            <div class="products">
+    
+                <!-- Tarjetas de productos -->
+                <!-- Producto1 -->
+                            <!-- Producto1 -->
+            <div class="product-card" data-name="Producto 1" data-price="25">
+                <img src="img todos/img snack/cheestrees.jpg" alt="Producto 1">
+                <div class="product-info">
+                    <h3>Producto 1</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <a class="buy-now btn-3" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card" data-name="Producto 2" data-price="30">
+                <img src="img todos/img snack/chetos.jpg" alt="Producto 2">
+                <div class="product-info">
+                    <h3>Producto 2</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card" data-name="Producto 3" data-price="15">
+                <img src="img todos/img snack/chifles.jpg" alt="Producto 3">
+                <div class="product-info">
+                    <h3>Producto 3</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/15.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card" data-name="Producto 4" data-price="40">
+                <img src="img todos/img snack/chifles2.jpg" alt="Producto 4">
+                <div class="product-info">
+                    <h3>Producto 4</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/40.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card" data-name="Producto 5" data-price="50">
+                <img src="img todos/img snack/chifles3.jpg" alt="Producto 5">
+                <div class="product-info">
+                    <h3>Producto 5</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/50.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img snack/chifles4.jpg" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 7 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img snack/icamarillo.jpg" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 8 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img snack/icjalapeño.jpg" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+    <!--===============================-->
+    
+                <!-- Producto1 -->
+                <div class="product-card" data-name="Producto 1" data-price="25">
+                    <img src="img todos/img congelados/cheddar-removebg-preview.png" alt="Producto 1">
+                    <div class="product-info">
+                        <h3>Producto 1</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/2.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 2 -->
+                <div class="product-card" data-name="Producto 2" data-price="30">
+                    <img src="img todos/img congelados/hotdog-removebg-preview.png" alt="Producto 2">
+                    <div class="product-info">
+                        <h3>producto 2</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/2.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 3 -->
+                <div class="product-card" data-name="Producto 3" data-price="15">
+                    <img src="img todos/img congelados/jamonada-removebg-preview.png" alt="Producto 3">
+                    <div class="product-info">
+                        <h3>Producto 3</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/15.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 4 -->
+                <div class="product-card" data-name="Producto 4" data-price="40">
+                    <img src="img todos/img congelados/milanesas-removebg-preview.png" alt="Producto 4">
+                    <div class="product-info">
+                        <h3>Producto 4</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/40.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 5 -->
+                <div class="product-card" data-name="Producto 5" data-price="50">
+                    <img src="img todos/img congelados/cabanossi-removebg-preview.png" alt="Producto 5">
+                    <div class="product-info">
+                        <h3>Producto 5</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/50.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 6 -->
+                <div class="product-card" data-name="Producto 6" data-price="60">
+                    <img src="img todos/img congelados/nuggets-removebg-preview.png" alt="Producto 6">
+                    <div class="product-info">
+                        <h3>Producto 6</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/60.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 7 -->
+                <div class="product-card" data-name="Producto 6" data-price="60">
+                    <img src="img todos/img congelados/papas-removebg-preview.png" alt="Producto 6">
+                    <div class="product-info">
+                        <h3>Producto 6</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/60.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    
+                <!-- Producto 8 -->
+                <div class="product-card" data-name="Producto 6" data-price="60">
+                    <img src="img todos/img congelados/parmesano-removebg-preview.png" alt="Producto 6">
+                    <div class="product-info">
+                        <h3>Producto 6</h3>
+                        <p>Descripción breve del producto.</p>
+                        <p class="price">S/60.00</p>
+                        <button class="buy-now">Comprar</button>
+                    </div>
+                </div>
+    <!--===============================-->
+            <!-- Producto1 -->
+            <div class="product-card" data-name="Producto 1" data-price="25">
+                <img src="img todos/img frut-ver/ajis-removebg-preview.png" alt="Producto 1">
+                <div class="product-info">
+                    <h3>Producto 1</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card" data-name="Producto 2" data-price="30">
+                <img src="img todos/img frut-ver/apios-removebg-preview.png" alt="Producto 2">
+                <div class="product-info">
+                    <h3>Producto 2</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card" data-name="Producto 3" data-price="15">
+                <img src="img todos/img frut-ver/berengenas-removebg-preview.png" alt="Producto 3">
+                <div class="product-info">
+                    <h3>Producto 3</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/15.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card" data-name="Producto 4" data-price="40">
+                <img src="img todos/img frut-ver/brocoli-removebg-preview.png" alt="Producto 4">
+                <div class="product-info">
+                    <h3>Producto 4</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/40.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card" data-name="Producto 5" data-price="50">
+                <img src="img todos/img frut-ver/cebollas-removebg-preview.png" alt="Producto 5">
+                <div class="product-info">
+                    <h3>Producto 5</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/50.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img frut-ver/col-removebg-preview.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 7 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img frut-ver/lechugas-removebg-preview.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 8 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img frut-ver/pepinos-removebg-preview.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+    <!--===============================-->
+  <!-- Producto1 -->
+  <div class="product-card" data-name="Producto 1" data-price="25">
+    <img src="img todos/img bebidas/bonle_pack-removebg-preview.png" alt="Producto 1">
+    <div class="product-info">
+        <h3>Bonle pack</h3>
+        <p>leche evaporada bonle-6 unid.</p>
+        <p class="price">S/18.80</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 2 -->
+<div class="product-card" data-name="Producto 2" data-price="30">
+    <img src="img todos/img bebidas/chocolatada_caja-removebg-preview.png" alt="Producto 2">
+    <div class="product-info">
+        <h3>Chocolatada</h3>
+        <p>Chocolatada gloria de 1L</p>
+        <p class="price">S/12.00</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 3 -->
+<div class="product-card" data-name="Producto 3" data-price="15">
+    <img src="img todos/img bebidas/chocolatada_pack-removebg-preview.png" alt="Producto 3">
+    <div class="product-info">
+        <h3>Six pack chocolatada kids gloria</h3>
+        <p>Six pack de chocolatada de 180 ml de 6 unid.</p>
+        <p class="price">S/9.50</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 4 -->
+<div class="product-card" data-name="Producto 4" data-price="40">
+    <img src="img todos/img bebidas/chocolatada_vidrio-removebg-preview.png" alt="Producto 4">
+    <div class="product-info">
+        <h3>Chocolatada Dan Lan</h3>
+        <p>Chocolatada Dan Lan de 900 ml</p>
+        <p class="price">S/8.20</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 5 -->
+<div class="product-card" data-name="Producto 5" data-price="50">
+    <img src="img todos/img bebidas/coca_en_lata-removebg-preview.png" alt="Producto 5">
+    <div class="product-info">
+        <h3>six pack de cocacola</h3>
+        <p>coca cola de 330ml 6 unid</p>
+        <p class="price">S/25.00</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 6 -->
+<div class="product-card" data-name="Producto 6" data-price="60">
+    <img src="img todos/img bebidas/coca_grande-removebg-preview.png" alt="Producto 6">
+    <div class="product-info">
+        <h3>cocacola 2,5L</h3>
+        <p>bebida coca cola de 2,5L</p>
+        <p class="price">S/9.70</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 7 -->
+<div class="product-card" data-name="Producto 6" data-price="60">
+    <img src="img todos/img bebidas/cusqueña1-removebg-preview (1).png" alt="Producto 6">
+    <div class="product-info">
+        <h3>Cerveza cusqueña negra</h3>
+        <p>six pack de Cerveza cusqueña de 355ml</p>
+        <p class="price">S/25.90</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+
+<!-- Producto 8 -->
+<div class="product-card" data-name="Producto 6" data-price="60">
+    <img src="img todos/img bebidas/cusqueña_2-removebg-preview.png" alt="Producto 6">
+    <div class="product-info">
+        <h3>cerveza cusqueña dorada</h3>
+        <p>six pack de Cerveza cusqueña de 355ml</p>
+        <p class="price">S/25.90</p>
+        <button class="buy-now">Comprar</button>
+    </div>
+</div>
+    <!--===============================-->
+            <!-- Producto1 -->
+            <div class="product-card" data-name="Producto 1" data-price="25">
+                <img src="img todos/img limpieza/Bolivar.png" alt="Producto 1">
+                <div class="product-info">
+                    <h3>Producto 1</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card" data-name="Producto 2" data-price="30">
+                <img src="img todos/img limpieza/Dove.png" alt="Producto 2">
+                <div class="product-info">
+                    <h3>Producto 2</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/2.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card" data-name="Producto 3" data-price="15">
+                <img src="img todos/img limpieza/DoveAcondicionador.png" alt="Producto 3">
+                <div class="product-info">
+                    <h3>Producto 3</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/15.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card" data-name="Producto 4" data-price="40">
+                <img src="img todos/img limpieza/Enprogen.png" alt="Producto 4">
+                <div class="product-info">
+                    <h3>Producto 4</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/40.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card" data-name="Producto 5" data-price="50">
+                <img src="img todos/img limpieza/Frosh.png" alt="Producto 5">
+                <div class="product-info">
+                    <h3>Producto 5</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/50.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img limpieza/mrMusculo.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 7 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img limpieza/Palmolive.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 8 -->
+            <div class="product-card" data-name="Producto 6" data-price="60">
+                <img src="img todos/img limpieza/sapolioLavaVaagillas.png" alt="Producto 6">
+                <div class="product-info">
+                    <h3>Producto 6</h3>
+                    <p>Descripción breve del producto.</p>
+                    <p class="price">S/60.00</p>
+                    <button class="buy-now">Comprar</button>
+                </div>
+            </div>
+    
+            </div>
+    
+            <!-- Tabla del carrito de compras -->
+            <h2>Carrito de Compras</h2>
+            <table id="cart" class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+    
+        <script src="js/java.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
+
+</body>
+</html>
